@@ -14,7 +14,7 @@ body {
     font-style: normal;
         font-weight: 900;
         font-size: 44px;
-        line-height: 0.14;
+        line-height: 1,4;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
@@ -42,13 +42,23 @@ body {
 }
    /* Логотип */
 .logo {
+    font-family: 'Raleway';
     color: var(--title-text-color);
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
-    line-height: 31px;
+    line-height: 1,2;
     letter-spacing: 0.03em;
     text-align: left;
+    }
+    .logo-blue {
+        color: var(--accent-color);
+    }
+    .logo-black {
+        color: var(--title-text-color);
+    }
+    .logo-white {
+        color: var(--primary-white-color);
     }
     /* Стилізація тексту */
 .text-1 {
@@ -66,6 +76,10 @@ body {
         text-align: center;
         letter-spacing: 0.03em;
 }    
+/* Хедер */
+.header{
+    background-color: var(--primary-white-color);
+}
 
 /* Навигація */
 .nav-item {
@@ -92,8 +106,23 @@ body {
 .section-hero {
     background-color: #2F303A;
 }
+/* Футер */
+.footer {
+    background-color: #2F303A;
+    
+}
 
 /* Адреса */
 .adress-map {
     color: var(--primary-white-color);
+}
+.contact-item {
+    color: #FFFFFF99;
+}
+/* Прибираю точки в списках */
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
 }
