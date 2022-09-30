@@ -5,7 +5,7 @@
     --primary-white-color: #FFFFFF;
 }
 body {
-    background-color: #F5F5F5;
+    background-color: var(--primary-white-color);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
 }
@@ -87,10 +87,13 @@ body {
 }
 
 .nav-item:hover,
-.nav-item:focus,
-.nav-item:active {
+.nav-item:focus {
     color: var(--accent-color);
 }
+/* Наша команда */
+
+
+
 
 /* Контакт-лист */
 .contact-item {
@@ -98,14 +101,18 @@ body {
 }
 
 .contact-item:hover,
-.contact-item:focus,
-.contact-item:active {
+.contact-item:focus {
     color: var(--accent-color);
 }
 /* Секция-герой */
 .section-hero {
     background-color: #2F303A;
 }
+.button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
 /* Футер */
 .footer {
     background-color: #2F303A;
@@ -118,6 +125,14 @@ body {
 }
 .contact-item {
     color: #FFFFFF99;
+}
+.contact-item-header {
+    color: var(--primary-text-color);
+}
+.contact-item-header:hover,
+.contact-item-header:focus {
+    color: var(--accent-color);
+    
 }
 /* Прибираю точки в списках */
 .list {
