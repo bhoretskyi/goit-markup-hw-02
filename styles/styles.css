@@ -156,3 +156,27 @@ body {
 .link {
   text-decoration: none;
 }
+.current {
+  color: var(--accent-color);
+}
+/* мейн Портфоліо */
+.page-2-title {
+  color: var(--title-text-color);
+  font-family: "Roboto";
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
+
+.page-2-text {
+  color: var(--primary-text-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1,9;
+  letter-spacing: 0.03em;
+}
