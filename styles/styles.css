@@ -128,6 +128,11 @@ body {
 .button {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
 }
 
 /* Футер */
@@ -138,9 +143,17 @@ body {
 /* Адреса */
 .adress-map {
   color: var(--primary-white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .contact-item {
   color: #ffffff99;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .contact-item-header {
   color: var(--primary-text-color);
@@ -177,6 +190,26 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1,9;
+  line-height: 1, 9;
   letter-spacing: 0.03em;
+}
+.adress-link {
+  font-style: normal;
+}
+/* Кнопки портфоліо */
+.button-list {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  font-family: "Roboto";
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-list:hover,
+.button-list:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
