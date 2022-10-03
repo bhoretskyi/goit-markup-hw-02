@@ -21,19 +21,20 @@ body {
 }
 .section-title {
   color: var(--title-text-color);
-}
-.about-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-title,
+
+.team-title {
+  color: var(--title-text-color);
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
 .benefits-title {
   color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -60,7 +61,6 @@ body {
 }
 /* Стилізація тексту */
 .benefits-text {
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
@@ -79,7 +79,6 @@ body {
 .nav-link {
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -152,14 +151,12 @@ body {
 }
 .contact-item {
   color: rgba(255, 255, 250, 0.6);
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
 .contact-link-header {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -180,9 +177,6 @@ body {
 /* мейн Портфоліо */
 .project-title {
   color: var(--title-text-color);
-  font-family: "Roboto";
-
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -190,7 +184,6 @@ body {
 
 .project-text {
   color: var(--primary-text-color);
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
